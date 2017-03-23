@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Script-Type" content="text/JavaScript">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Weather Guru</title>
+
+<style>
+div.form {
+	background-color: #087810;
+	color: white;
+	height: 80px;
+}
+</style>
+</head>
+<body bgcolor="#ffffff">
+	<div class="form">
+		<div id="header"
+			style="float: left; width: 30%; font-family: fantasy;">
+			<h1 class="header" align="center">Weather Info</h1>
+		</div>
+
+		<div id="form"
+			style="float: left; width: 70%; font-family: sans-serif;">
+			<form method="post" action="check">
+				<div style="float: right; width: 40%;">
+					<p>
+						City name <input type="text" name="cityName"
+							style="border-radius: 5px;">
+					</p>
+				</div>
+				<div style="padding-top: 40px; padding-left: 80.5%;">
+					<input type="submit" name="Fetch Weather Report"
+						style="border-radius: 5px;">
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div>
+		<img src="tram.jpg" />
+	</div>
+</body>
+</html>

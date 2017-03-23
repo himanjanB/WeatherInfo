@@ -1,0 +1,2 @@
+com\weatherinfo\core\ReadWeatherJSON.class
+com\weatherinfo\module\WeatherInfoFetchingServlet.class
